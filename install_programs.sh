@@ -25,7 +25,7 @@ printf "\n${yel}[INFO]${end} Install MS Teams"
 sudo dnf install https://packages.microsoft.com/yumrepos/ms-teams/teams-1.3.00.16851-1.x86_64.rpm
 
 printf "\n${yel}[INFO]${end} Install Slack"
-sudo snap install slack
+sudo snap install slack --classic
 
 printf "\n${yel}[INFO]${end} Install Visual Studio Code"
 sudo snap install code --classic
