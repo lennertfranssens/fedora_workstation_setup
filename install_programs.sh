@@ -33,14 +33,6 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 sudo flatpak install flathub com.spotify.Client
 flatpak run com.spotify.Client
 
-printf "\n${yel}[INFO]${end} Install and configure git\n"
-sudo dnf install git
-git config --global user.name "lennertfranssens"
-git config --global user.email "lennert.franssens@gmail.com"
-git config --global core.editor "nano"
-echo | ssh-keygen -t rsa -b 4096 -C "lennert.franssens@gmail.com"
-printf "Enable SSH key on https://github.com/settings/keys with the SSH key generated in /home/lennertfranssens/.ssh/id_rsa.pub\n"
-
 printf "\n${yel}[INFO]${end} Install emacs\n"
 yes | sudo dnf install emacs
 
