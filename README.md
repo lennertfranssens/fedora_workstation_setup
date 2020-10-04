@@ -18,6 +18,9 @@ bash ./install_programs.sh
 bash ./post_installation.sh
 ```
 
+## Install Docker
+Visit https://fedoramagazine.org/docker-and-fedora-32/<br>
+
 ## Manual configuration git
 01. Configuration of git
 ```bash
