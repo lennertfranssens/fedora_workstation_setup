@@ -3,7 +3,7 @@
 ## Automatic setup
 01. Open terminal
 
-02. Run the script git_config.sh
+02. Run the script install_programs.sh
 ```bash
 bash ./install_programs.sh
 ```
