@@ -9,6 +9,9 @@ printf "|--------------------------------|\n"
 printf "| Post Fedora Workstation Setup  |\n"
 printf "|--------------------------------|\n"
 
+printf "\n${yel}[INFO]${end} Configure Visual Studio Code\n"
+code --install-extension ms-vscode-remote.remote-containers
+
 printf "\n${yel}[INFO]${end} Configure emacs config\n"
 git clone git@github.com:lennertfranssens/emacs_config.git
 config=$(cat emacs_config/REMOVE_BEFORE_DOT.emacs)
