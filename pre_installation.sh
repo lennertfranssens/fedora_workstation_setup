@@ -18,7 +18,7 @@ sudo apt install git
 
 printf "\n${yel}[INFO]${end} Configure git\n"
 git config --global user.email "lennert.franssens@ugent.be"
-git config --global user.name "Lennert Franssens"
+git config --global user.name "lefranss"
 echo | ssh-keygen -t rsa -b 4096 -C "lennert.franssens@ugent.be"
 printf "Enable SSH key on https://github.com/settings/keys with the SSH key generated in /home/lennertfranssens/.ssh/id_rsa.pub\n"
 
