@@ -26,6 +26,9 @@ sudo snap install slack --classic
 printf "\n${yel}[INFO]${end} Install Visual Studio Code\n"
 sudo snap install code --classic
 
+printf "\n${yel}[INFO]${end} Install Intellij Ultimatte\n"
+sudo snap install intellij-idea-ultimate --classic
+
 printf "\n${yel}[INFO]${end} Install Spotify Client\n"
 printf "Reference: https://flathub.org/apps/details/com.spotify.Client\n"
 sudo dnf install -y flatpak
