@@ -18,6 +18,11 @@ config=$(cat emacs_config/REMOVE_BEFORE_DOT.emacs)
 echo "${config}" > ~/.emacs
 sudo rm -rf emacs_config
 
+printf "\n${yel}[INFO]${end} Enable SSH\n"
+sudo dnf install openssh-server
+sudo systemctl enable sshd
+sudo systemctl start sshd
+
 printf "\n${yel}[INFO]${end} Performing update\n"
 sudo dnf update
 
