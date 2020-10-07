@@ -36,7 +36,6 @@ flatpak run com.spotify.Client
 printf "\n${yel}[INFO]${end} Install emacs\n"
 yes | sudo dnf install emacs
 
-
 printf "\n${yel}[INFO]${end} Install sensors\n"
 yes | sudo dnf install lm_sensors
 
