@@ -19,7 +19,7 @@ bash ./post_installation.sh
 ```
 
 ## Install Docker
-Visit https://fedoramagazine.org/docker-and-fedora-32/<br>
+Visit https://fedoramagazine.org/docker-and-fedora-32/ or https://computingforgeeks.com/how-to-install-docker-on-fedora/<br>
 ### Step 0: Removing conflicts
 ```bash
 sudo dnf remove docker-*
