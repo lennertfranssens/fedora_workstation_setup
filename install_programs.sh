@@ -24,7 +24,10 @@ printf "\n${yel}[INFO]${end} Install Slack\n"
 sudo snap install slack --classic
 
 printf "\n${yel}[INFO]${end} Install Visual Studio Code\n"
-sudo snap install code --classic
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+sudo dnf check-update
+sudo dnf install code
 
 printf "\n${yel}[INFO]${end} Install Intellij Ultimatte\n"
 sudo snap install intellij-idea-ultimate --classic
