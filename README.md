@@ -57,6 +57,9 @@ sudo systemctl reboot
 docker run hello-world
 ```
 
+## Enable VNC server
+Visit https://www.server-world.info/en/note?os=Fedora_32&p=desktop&f=6<br>
+
 ## Manual configuration git
 01. Configuration of git
 ```bash
