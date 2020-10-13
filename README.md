@@ -21,6 +21,9 @@ bash ./post_installation.sh
 ## Install Docker
 Visit https://fedoramagazine.org/docker-and-fedora-32/ or https://computingforgeeks.com/how-to-install-docker-on-fedora/<br>
 
+## Install PostgreSQL
+Visit https://www.postgresql.org/download/linux/redhat/<br>
+
 ## Manual configuration git
 01. Configuration of git
 ```bash
