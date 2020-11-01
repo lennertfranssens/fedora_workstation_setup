@@ -24,6 +24,9 @@ Visit https://fedoramagazine.org/docker-and-fedora-32/, https://dev.to/yzwdroid/
 ## Install PostgreSQL
 Visit https://www.postgresql.org/download/linux/redhat/<br>
 
+## Wayland
+https://community.teamviewer.com/t5/Linux-EN/Linux-Disable-Wayland-Support/td-p/1103<br>
+
 ## Manual configuration git
 01. Configuration of git
 ```bash
