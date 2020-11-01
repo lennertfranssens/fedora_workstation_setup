@@ -19,7 +19,7 @@ bash ./post_installation.sh
 ```
 
 ## Install Docker
-Visit https://fedoramagazine.org/docker-and-fedora-32/ or https://computingforgeeks.com/how-to-install-docker-on-fedora/<br>
+Visit https://fedoramagazine.org/docker-and-fedora-32/, https://dev.to/yzwdroid/fedora-33-docker-445k or https://computingforgeeks.com/how-to-install-docker-on-fedora/<br>
 
 ## Install PostgreSQL
 Visit https://www.postgresql.org/download/linux/redhat/<br>
