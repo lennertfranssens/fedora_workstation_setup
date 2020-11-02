@@ -14,9 +14,6 @@ sudo dnf install fedora-workstation-repositories
 sudo dnf config-manager --set-enabled google-chrome
 sudo dnf install google-chrome-stable
 
-printf "\n${yel}[INFO]${end} Install Zoom\n"
-sudo snap install zoom-client --classic
-
 printf "\n${yel}[INFO]${end} Install MS Teams\n"
 sudo dnf install https://packages.microsoft.com/yumrepos/ms-teams/teams-1.3.00.16851-1.x86_64.rpm
 
