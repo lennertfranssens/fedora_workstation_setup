@@ -21,8 +21,8 @@ bash ./post_installation.sh
 ## Install Docker
 Visit https://fedoramagazine.org/docker-and-fedora-32/, https://dev.to/yzwdroid/fedora-33-docker-445k or https://computingforgeeks.com/how-to-install-docker-on-fedora/<br>
 
-## Install PostgreSQL
-Visit https://www.postgresql.org/download/linux/redhat/<br>
+## Install PostgreSQL and pgAdmin4
+Visit https://www.postgresql.org/download/linux/redhat/ and https://computingforgeeks.com/how-to-install-pgadmin-on-centos-fedora/<br>
 
 ## Wayland
 https://community.teamviewer.com/t5/Linux-EN/Linux-Disable-Wayland-Support/td-p/1103<br>
