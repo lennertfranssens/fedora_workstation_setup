@@ -17,6 +17,8 @@ bash ./install_programs.sh
 ```bash
 bash ./post_installation.sh
 ```
+## Install Zoom
+Visit https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux<br>
 
 ## Install Docker
 Visit https://fedoramagazine.org/docker-and-fedora-32/, https://dev.to/yzwdroid/fedora-33-docker-445k or https://computingforgeeks.com/how-to-install-docker-on-fedora/<br>
