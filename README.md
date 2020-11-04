@@ -29,6 +29,9 @@ Visit https://www.postgresql.org/download/linux/redhat/ and https://computingfor
 ## Wayland
 https://community.teamviewer.com/t5/Linux-EN/Linux-Disable-Wayland-Support/td-p/1103<br>
 
+## VNC
+https://www.server-world.info/en/note?os=Fedora_32&p=desktop&f=7<br>
+
 ## Manual configuration git
 01. Configuration of git
 ```bash
