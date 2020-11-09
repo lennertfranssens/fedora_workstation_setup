@@ -36,6 +36,9 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 sudo flatpak install flathub com.spotify.Client
 flatpak run com.spotify.Client
 
+printf "\n${yel}[INFO]${end} Install maven\n"
+yes | sudo dnf install maven
+
 printf "\n${yel}[INFO]${end} Install emacs\n"
 yes | sudo dnf install emacs
 
