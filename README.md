@@ -20,6 +20,7 @@ bash ./post_installation.sh
 
 ## Install Java JDK
 Visit https://docs.fedoraproject.org/en-US/quick-docs/installing-java/<br>
+And add PATH and JAVA_HOME https://medium.com/@ayeshajayasankha/how-to-install-and-switch-between-alternative-java-versions-66b3671fc382<br>
 
 ## Install Zoom
 Visit https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating-Zoom-on-Linux<br>
