@@ -45,4 +45,9 @@ yes | sudo dnf install emacs
 printf "\n${yel}[INFO]${end} Install sensors\n"
 yes | sudo dnf install lm_sensors
 
+printf "\n${yel}[INFO]${end} Install gitlab-runner\n"
+curl -LJO https://gitlab-runner-downloads.s3.amazonaws.com/latest/rpm/gitlab-runner_amd64.rpm
+sudo rpm -i gitlab-runner_amd64.rpm
+sudo rm -rf gitlab-runner_amd64.rpm
+
 printf "\n${yel}[INFO]${end} Log Out and proceed with post_installation.sh\n"
