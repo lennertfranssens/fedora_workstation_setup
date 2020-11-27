@@ -28,6 +28,9 @@ Visit https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating
 ## Install Docker
 Visit https://fedoramagazine.org/docker-and-fedora-32/, https://dev.to/yzwdroid/fedora-33-docker-445k or https://computingforgeeks.com/how-to-install-docker-on-fedora/<br>
 
+## kubectl
+Visit https://kubernetes.io/docs/tasks/tools/install-kubectl/<br>
+
 ## Install PostgreSQL and pgAdmin4
 Visit https://www.postgresql.org/download/linux/redhat/ and https://computingforgeeks.com/how-to-install-pgadmin-on-centos-fedora/<br>
 
