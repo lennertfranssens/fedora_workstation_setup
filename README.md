@@ -31,6 +31,11 @@ Visit https://fedoramagazine.org/docker-and-fedora-32/, https://dev.to/yzwdroid/
 ## kubectl
 Visit https://kubernetes.io/docs/tasks/tools/install-kubectl/<br>
 
+## helm
+```bash
+sudo snap install helm --classic
+```
+
 ## Install PostgreSQL and pgAdmin4
 Visit https://www.postgresql.org/download/linux/redhat/ and https://computingforgeeks.com/how-to-install-pgadmin-on-centos-fedora/<br>
 
