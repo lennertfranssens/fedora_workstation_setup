@@ -53,6 +53,9 @@ sudo dnf install npm
 
 ## Install PostgreSQL and pgAdmin4
 Visit https://www.postgresql.org/download/linux/redhat/ and https://computingforgeeks.com/how-to-install-pgadmin-on-centos-fedora/<br>
+```bash
+sudo apt install pgadmin4
+```
 
 ## Wayland
 https://community.teamviewer.com/t5/Linux-EN/Linux-Disable-Wayland-Support/td-p/1103<br>
