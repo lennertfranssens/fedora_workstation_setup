@@ -41,6 +41,11 @@ Visit https://kubernetes.io/docs/tasks/tools/install-kubectl/<br>
 sudo snap install helm --classic
 ```
 
+## npm
+```bash
+sudo dnf install npm
+```
+
 ## Install PostgreSQL and pgAdmin4
 Visit https://www.postgresql.org/download/linux/redhat/ and https://computingforgeeks.com/how-to-install-pgadmin-on-centos-fedora/<br>
 
