@@ -33,6 +33,11 @@ Visit https://fedoramagazine.org/docker-and-fedora-32/, https://dev.to/yzwdroid/
 sudo snap install netbeans --classic
 ```
 
+## Install WebStorm
+```bash
+sudo snap install webstorm --classic
+```
+
 ## kubectl
 Visit https://kubernetes.io/docs/tasks/tools/install-kubectl/<br>
 
