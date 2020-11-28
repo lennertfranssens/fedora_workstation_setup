@@ -53,8 +53,10 @@ sudo dnf install npm
 
 ## Install PostgreSQL and pgAdmin4
 Visit https://www.postgresql.org/download/linux/redhat/ and https://computingforgeeks.com/how-to-install-pgadmin-on-centos-fedora/<br>
+
+## Install DataGrip
 ```bash
-sudo apt install pgadmin4
+sudo snap install datagrip --classic
 ```
 
 ## Wayland
