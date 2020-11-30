@@ -14,7 +14,7 @@ sudo dnf install snapd
 sudo ln -s /var/lib/snapd/snap /snap
 
 printf "\n${yel}[INFO]${end} Install git\n"
-sudo apt install git
+sudo dnf install git
 
 printf "\n${yel}[INFO]${end} Configure git\n"
 git config --global user.email "lennert.franssens@ugent.be"
