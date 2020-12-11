@@ -59,6 +59,12 @@ Visit https://www.postgresql.org/download/linux/redhat/ and https://computingfor
 sudo snap install datagrip --classic
 ```
 
+
+## Install Postman
+```bash
+sudo snap install postman --classic
+```
+
 ## Wayland
 https://community.teamviewer.com/t5/Linux-EN/Linux-Disable-Wayland-Support/td-p/1103<br>
 
