@@ -33,11 +33,7 @@ printf "\n${yel}[INFO]${end} Install Intellij Ultimatte\n"
 sudo snap install intellij-idea-ultimate --classic
 
 printf "\n${yel}[INFO]${end} Install Spotify Client\n"
-printf "Reference: https://flathub.org/apps/details/com.spotify.Client\n"
-sudo dnf install -y flatpak
-flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-sudo flatpak install flathub com.spotify.Client
-flatpak run com.spotify.Client
+sudo snap install spotify
 
 printf "\n${yel}[INFO]${end} Install maven\n"
 yes | sudo dnf install maven
