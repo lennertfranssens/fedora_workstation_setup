@@ -32,21 +32,16 @@ sudo dnf install code
 printf "\n${yel}[INFO]${end} Install Intellij Ultimatte\n"
 sudo snap install intellij-idea-ultimate --classic
 
+printf "\n${yel}[INFO]${end} Install Postman\n"
+sudo snap install postman --classic
+
 printf "\n${yel}[INFO]${end} Install Spotify Client\n"
 sudo snap install spotify
-
-printf "\n${yel}[INFO]${end} Install maven\n"
-yes | sudo dnf install maven
 
 printf "\n${yel}[INFO]${end} Install emacs\n"
 yes | sudo dnf install emacs
 
 printf "\n${yel}[INFO]${end} Install sensors\n"
 yes | sudo dnf install lm_sensors
-
-printf "\n${yel}[INFO]${end} Install gitlab-runner\n"
-curl -LJO https://gitlab-runner-downloads.s3.amazonaws.com/latest/rpm/gitlab-runner_amd64.rpm
-sudo rpm -i gitlab-runner_amd64.rpm
-sudo rm -rf gitlab-runner_amd64.rpm
 
 printf "\n${yel}[INFO]${end} Log Out and proceed with post_installation.sh\n"
