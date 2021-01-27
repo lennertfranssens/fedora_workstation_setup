@@ -41,6 +41,18 @@ sudo snap install webstorm --classic
 ## kubectl
 Visit https://kubernetes.io/docs/tasks/tools/install-kubectl/<br>
 
+## maven
+```bash
+yes | sudo dnf install maven
+```
+
+## gitlab-runner
+```bash
+curl -LJO https://gitlab-runner-downloads.s3.amazonaws.com/latest/rpm/gitlab-runner_amd64.rpm
+sudo rpm -i gitlab-runner_amd64.rpm
+sudo rm -rf gitlab-runner_amd64.rpm
+```
+
 ## helm
 ```bash
 sudo snap install helm --classic
