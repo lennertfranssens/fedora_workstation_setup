@@ -41,6 +41,9 @@ sudo snap install spotify
 printf "\n${yel}[INFO]${end} Install emacs\n"
 yes | sudo dnf install emacs
 
+printf "\n${yel}[INFO]${end} Install typora\n"
+yes | sudo snap install typora
+
 printf "\n${yel}[INFO]${end} Install sensors\n"
 yes | sudo dnf install lm_sensors
 
