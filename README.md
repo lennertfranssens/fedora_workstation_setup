@@ -80,7 +80,9 @@ sudo snap install postman --classic
 ```
 
 ## Install Wireshark
-Visit https://fedoramagazine.org/how-to-install-wireshark-fedora/.
+```bash
+sudo dnf install wireshark
+```
 
 ## Wayland
 https://community.teamviewer.com/t5/Linux-EN/Linux-Disable-Wayland-Support/td-p/1103<br>
