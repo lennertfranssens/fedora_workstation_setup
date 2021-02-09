@@ -66,6 +66,12 @@ sudo snap install helm --classic
 sudo dnf install npm
 ```
 
+## C++ coding environment with VSCode
+```bash
+sudo dnf install pkg-config cmake gcc gcc-c++ gdb
+code --install-extension ms-vscode.cpptools ms-vscode.cmake-tools ms-vsliveshare.vsliveshare
+```
+
 ## Install PostgreSQL and pgAdmin4
 Visit https://www.postgresql.org/download/linux/redhat/ and https://computingforgeeks.com/how-to-install-pgadmin-on-centos-fedora/<br>
 
