@@ -82,6 +82,8 @@ sudo snap install postman --classic
 ## Install Wireshark
 ```bash
 sudo dnf install wireshark
+sudo usermod -a -G wireshark lennertfranssens
+sudo chmod +x /usr/bin/dumpcap
 ```
 
 ## Wayland
