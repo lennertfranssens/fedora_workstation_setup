@@ -76,6 +76,9 @@ sudo snap install datagrip --classic
 sudo snap install postman --classic
 ```
 
+## Install Wireshark
+Visit https://fedoramagazine.org/how-to-install-wireshark-fedora/.
+
 ## Wayland
 https://community.teamviewer.com/t5/Linux-EN/Linux-Disable-Wayland-Support/td-p/1103<br>
 
