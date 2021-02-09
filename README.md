@@ -18,6 +18,9 @@ bash ./install_programs.sh
 bash ./post_installation.sh
 ```
 
+## Install VirtualBox
+Visit https://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/.
+
 ## Install Java JDK
 Visit https://docs.fedoraproject.org/en-US/quick-docs/installing-java/<br>
 And add PATH and JAVA_HOME https://medium.com/@ayeshajayasankha/how-to-install-and-switch-between-alternative-java-versions-66b3671fc382<br>
