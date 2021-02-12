@@ -19,7 +19,7 @@ bash ./post_installation.sh
 ```
 
 ## Install VirtualBox
-Visit https://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/.
+Visit https://www.if-not-true-then-false.com/2010/install-virtualbox-with-yum-on-fedora-centos-red-hat-rhel/.<br>
 
 ## Install Java JDK
 Visit https://docs.fedoraproject.org/en-US/quick-docs/installing-java/<br>
@@ -30,6 +30,9 @@ Visit https://support.zoom.us/hc/en-us/articles/204206269-Installing-or-updating
 
 ## Install Docker
 Visit https://fedoramagazine.org/docker-and-fedora-32/, https://dev.to/yzwdroid/fedora-33-docker-445k or https://computingforgeeks.com/how-to-install-docker-on-fedora/<br>
+
+## PlantUML
+Visit https://plantuml.com/<br>
 
 ## Install NetBeans
 ```bash
